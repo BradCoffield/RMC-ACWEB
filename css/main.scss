@@ -1,0 +1,43 @@
+---
+---
+
+@import "partials/variables.scss";
+@import "partials/index.scss";
+@import "partials/index-2.scss";
+@import "partials/new-books-1.scss";
+@import "partials/nav-2.scss";
+@import "partials/cards.scss";
+.bold {
+  font-weight: bold;
+} 
+// ul {padding-left:0px!important;margin-bottom:0px!important;}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.notop {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+.nobottom {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+.nosides {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.inline {
+  display: inline;
+}
+.center {
+  text-align: center;
+}
+.italics {
+  font-style: italic;
+}
+.no-top {
+  padding-top: 0px;
+}
