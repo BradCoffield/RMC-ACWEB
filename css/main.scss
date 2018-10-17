@@ -9,39 +9,151 @@
 @import "partials/cards.scss";
 .bold {
   font-weight: bold;
-} 
-// ul {padding-left:0px!important;margin-bottom:0px!important;}
-.nopadding {  padding: 0 !important;  margin: 0 !important;}
-.notop {  padding-top: 0 !important;  margin-top: 0 !important;}
-.nobottom {  padding-bottom: 0 !important;  margin-bottom: 0 !important;}
-.nosides {  padding-left: 0 !important;  padding-right: 0 !important;  margin-left: 0 !important;  margin-right: 0 !important;}
-.inline {  display: inline;}
-.center {  text-align: center;}
-.italics {  font-style: italic;}
-.no-top {  padding-top: 0px;}
-
+} // ul {padding-left:0px!important;margin-bottom:0px!important;}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.notop {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+.nobottom {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+.nosides {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.inline {
+  display: inline;
+}
+.center {
+  text-align: center;
+}
+.italics {
+  font-style: italic;
+}
+.no-top {
+  padding-top: 0px;
+}
+.noleftp {
+  padding-left: 0px;
+}
+.norightp {
+  padding-right: 0px;
+}
 .dept-intro-text-wrap {
-  
-  .fa-quote-left, .fa-quote-right {
+  .fa-quote-left,
+  .fa-quote-right {
     font-size: 2.1rem;
   }
   .dept-intro-quote {
     font-size: 2.7rem;
-    
   }
-  .dept-intro-text{
+  .dept-intro-text {
     margin-top: 2rem;
   }
 }
-#bio-top-video{
+#bio-top-video {
   max-width: 100%;
- 
 }
 .dept-top-video-wrap {
   padding: 1rem;
-  background-image: $noise;
-   text-align: right;
+  background-color: $green-lighter-2; // background-color: $brown_logo_light; // background-image: $noise;
+  text-align: right;
+  border-radius: 3px;
+  box-shadow: 2px 3px 3px #999;
+  .dept-top-video-caption {
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px $green-lighter;
+    margin-bottom: 0px;
+  }
 }
-h3 {
-  padding-top: 2rem;
+.dept-sub-nav {
+  padding-left: 0px;
+  li {
+    display: inline;
+  }
+}
+.dept-subnav-buttony {
+  background-color: $green-wanna-transparent;
+  background-image: $noise;
+  border-bottom: 1px solid $brown_logo_dark;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 1.9rem;
+  font-family: $sans-serif;
+  color: inherit;
+  transition: background-color 2s ease;
+  transition: color 1s ease;
+  .fa-arrow-down,
+  .fa-bars {
+    float: right;
+    text-align: right;
+    display: inline-block;
+    font-size: 1.5rem;
+    position: relative;
+    top: 5px;
+  }
+}
+.dept-subnav-buttony:hover {
+  background-color: $green-lighter-2;
+  color: white;
+}
+.dept-testimonial {
+  font-family: "Roboto Slab", serif;
+  font-size: 21px;
+  color: #000;
+  line-height: 35px;
+}
+
+.dept-testimonial-h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 34px !important;
+  color: #00582c !important;
+  margin-bottom: 20px !important;
+  font-weight: 700 !important;
+  line-height: 1.1em !important;
+}
+.dept-testimonial-row::before {
+  content: " ";
+  display: block;
+  transform: skewY(-2deg);
+  background-color: #dfdede;
+  width: 100%;
+  height: 120px;
+  margin-top: -2%;
+  position: absolute;
+}
+.dept-testimonial-row {
+  background-color: #dfdede;
+  padding: 30px 0 70px;
+  overflow: hidden;
+}
+.dept-testimonial-credit {
+  font-family: $sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+}
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #00582c;
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+.dept-student-researchers {
+  // background-image: $noise; // background-color: $brown-homepagebig; // background-image: url(/img/admissions-bill02.jpg);
+}
+figcaption {text-align: right;background: $green-wanna-transparent;}
+figure {
+	border: 2px solid $green-wanna-transparent;
 }
