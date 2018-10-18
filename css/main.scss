@@ -166,7 +166,8 @@ h2 {
 }
 figcaption {text-align: right;background: $green-wanna-transparent;}
 figure {
-	border: 2px solid $green-wanna-transparent;
+  border: 2px solid $green-wanna-transparent;
+  margin-bottom: 2rem;
 }
 
 
@@ -177,8 +178,49 @@ figure {
 #exTab2 {
   .tab-content {
     background: inherit;
+    padding: 2rem 0px;
+    border: 1px solid #ddd;
+    // background-color: $green-wanna-transparent;
   }
   .nav-tabs {
-    background-color: $green-wanna-transparent;
+    // background-color: $green-wanna-transparent;
+    font-family: $serif;
+    border: 0px solid #ddd;
+    // margin-bottom: -1px;
   }
+}
+.get-flexed {
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+.stdnt-res-lede {
+  font-family: $sans-serif;
+font-size: 21px;
+color: #000;
+line-height: 35px;
+margin-bottom: 3rem;
+margin-top: -1rem;
+}
+
+.researchers-slide-group {
+  // display: flex;
+  // flex-wrap: wrap;
+  ul {padding-left: 10px;}
+  ul li {
+    font-family: $serif;  font-size: 18px;
+    margin-bottom: 2rem;
+    line-height: 2.4rem;
+  }
+}
+.stdnt-res-desc-label {
+
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 5px;
+
+}
+#bio-student-recent-successes {
+  text-align: center;
+  padding: 0px;
 }
