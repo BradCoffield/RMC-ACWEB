@@ -1,0 +1,26 @@
+---
+layout: basic-layout
+---
+
+<ul id="js-CycleList">
+         
+              
+        <li class="highlight">David Jurovich, pharmacy school </li>
+        <li>Treve Icenoggle, medical school</li>
+        <li> Mallory Kelley, DO school</li>
+        <li>Justan Baker, masters of public health program</li>
+        <li>Tana Beedee, PA school</li>
+        <li>Morgan Mazurkiewicz, OT school</li>
+    </ul>
+
+    <script>
+           $(document).ready(function(){
+  var CycleList = $("ul#js-CycleList");
+  
+  setInterval(function() {
+    var next = CycleList.find("li.highlight + li, li:first-child").last();
+    CycleList.find("li.highlight").removeClass("highlight");
+    next.addClass("highlight");
+  }, 1200);
+});
+           </script>
