@@ -266,18 +266,13 @@ figure {
 }
 .dept-news {
   padding-left: 0px;
-  // background-image: $noise;
-  // background-color: $green-wanna-transparent;
-  // background-color: #ddd;
-  // padding: 3rem;
-  // box-shadow: 1px 2px 2px #888;
   li {
     list-style-type: square;
     text-align: center;
     font-family: $serif;
     font-size: 18px;
     line-height: 2.7rem;
-     text-shadow: 1px 1px 1px #999;
+     text-shadow: 1px 1px 0px #999;
      a{color:#23527c}
      a:hover,a:focus{color: #337ab7;}
   }
