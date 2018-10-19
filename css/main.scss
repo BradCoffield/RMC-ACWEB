@@ -243,6 +243,7 @@ figure {
   padding: 2rem;
   box-shadow: 0px 0px 5px #888;
   border-radius: 3px;
+  margin-bottom: 2rem;
 }
 .no-dec {
   text-decoration: none;
@@ -251,4 +252,33 @@ figure {
 .no-dec:hover,
 .no-dec:focus {
   color: inherit;
+}
+.dept-student-researchers {
+  .stdnt-res-lede-2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: $serif;
+  }
+  // h2 {padding-bottom: 30px;}
+}
+.mediaGroup .heading {
+  padding-bottom: 30px;
+}
+.dept-news {
+  padding-left: 0px;
+  // background-image: $noise;
+  // background-color: $green-wanna-transparent;
+  // background-color: #ddd;
+  // padding: 3rem;
+  // box-shadow: 1px 2px 2px #888;
+  li {
+    list-style-type: square;
+    text-align: center;
+    font-family: $serif;
+    font-size: 18px;
+    line-height: 2.7rem;
+     text-shadow: 1px 1px 1px #999;
+     a{color:#23527c}
+     a:hover,a:focus{color: #337ab7;}
+  }
 }
