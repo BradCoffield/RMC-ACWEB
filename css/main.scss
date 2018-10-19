@@ -117,6 +117,7 @@
 }
 .dept-recent-grads {
   line-height: 27px;
+  font-size: 24px;
 }
 .dept-testimonial-h3,
 .dept-recent-grads-h3 {
@@ -156,8 +157,7 @@ figcaption {
 figure {
   border: 2px solid $green-wanna-transparent;
   margin-bottom: 2rem;
-}
-// TABBED CONTAINER TEST
+} // TABBED CONTAINER TEST
 #exTab2 {
   .tab-content {
     background: inherit;
@@ -174,7 +174,6 @@ figure {
   display: flex;
   flex-direction: column;
 }
-
 .stdnt-res-lede {
   font-family: $sans-serif;
   font-size: 21px;
@@ -206,7 +205,7 @@ figure {
 }
 #js-CycleList {
   padding-left: 0px;
-  font-size: 18px;
+  font-size: 21px;
   font-family: $sans-serif;
 }
 #js-CycleList li {
@@ -221,7 +220,35 @@ figure {
   visibility: visible;
   opacity: 1;
 }
-
 .faculty-profile-card-imgblock {
-  img {display: block;margin: 0 auto;}
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.faculty-profile-card-textblock {
+  font-family: $serif;
+}
+.faculty-profile-card-name {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+}
+.faculty-profile-card-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+.faculty-profile-card {
+  // background-color: $green-wanna-transparent; // background-image: $noise;
+  padding: 2rem;
+  box-shadow: 0px 0px 5px #888;
+  border-radius: 3px;
+}
+.no-dec {
+  text-decoration: none;
+  color: inherit;
+}
+.no-dec:hover,
+.no-dec:focus {
+  color: inherit;
 }
