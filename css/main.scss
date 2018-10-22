@@ -179,7 +179,7 @@ figure {
   font-size: 21px;
   color: #000;
   line-height: 35px;
-  margin-bottom: 3rem;
+  margin-bottom: 3rem!important;
   margin-top: -1rem;
 }
 .researchers-slide-group {
@@ -276,4 +276,25 @@ figure {
      a{color:#23527c}
      a:hover,a:focus{color: #337ab7;}
   }
+}
+
+.dept-majors-minors {
+  ul {padding-left: 20px;font-family: $serif;font-size: 1.6rem;list-style-type: square;}
+
+}
+p.dept-degrees-additional {
+  font-size: 1.7rem;
+  font-family: $serif;
+  margin-top: 2rem;
+  // font-style: italic;
+  background-color: $green-wanna-transparent;
+  // background-image: $noise;
+  padding: 3rem;
+}
+.majorminorsubheading {
+  background-color: $green-wanna-transparent;
+  background-image: $noise;
+  padding: 1rem 1.5rem;
+  box-shadow: 1px 1px 1px #999;
+  
 }
