@@ -1,0 +1,312 @@
+ 
+@import "partials/variables.scss";
+@import "partials/index.scss";
+@import "partials/index-2.scss";
+@import "partials/new-books-1.scss";
+@import "partials/nav-2.scss";
+@import "partials/cards.scss";
+.bold {
+  font-weight: bold;
+} // ul {padding-left:0px!important;margin-bottom:0px!important;}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.notop {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+.nobottom {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+.nosides {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.inline {
+  display: inline;
+}
+.center {
+  text-align: center;
+}
+.italics {
+  font-style: italic;
+}
+.no-top {
+  padding-top: 0px;
+}
+.noleftp {
+  padding-left: 0px;
+}
+.norightp {
+  padding-right: 0px;
+}
+.dept-intro-text-wrap {
+  .fa-quote-left,
+  .fa-quote-right {
+    font-size: 2.1rem;
+  }
+  .dept-intro-quote {
+    font-size: 2.7rem;
+  }
+  .dept-intro-text {
+    margin-top: 2rem;
+  }
+}
+#bio-top-video {
+  max-width: 100%;
+}
+.dept-top-video-wrap {
+  padding: 1rem;
+  background-color: $green-lighter-2; // background-color: $brown_logo_light; // background-image: $noise;
+  text-align: right;
+  border-radius: 3px;
+  box-shadow: 2px 3px 3px #999;
+  .dept-top-video-caption {
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px $green-lighter;
+    margin-bottom: 0px;
+  }
+}
+.dept-sub-nav {
+  padding-left: 0px;
+  li {
+    display: inline;
+  }
+}
+.dept-subnav-buttony {
+  background-color: $green-wanna-transparent;
+  background-image: $noise;
+  border-bottom: 1px solid $brown_logo_dark;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 1.9rem;
+  font-family: $sans-serif;
+  color: inherit;
+  transition: background-color 2s ease;
+  transition: color 1s ease;
+  .fa-arrow-down,
+  .fa-bars {
+    float: right;
+    text-align: right; // display: inline-block;
+    font-size: 1.5rem;
+    position: relative;
+    top: 5px;
+  }
+}
+.dept-subnav-buttony:hover {
+  background-color: $green-lighter-2;
+  color: white;
+}
+.dept-testimonial,
+.dept-recent-grads {
+  font-family: "Roboto Slab", serif;
+  font-size: 21px;
+  color: #000;
+}
+.dept-testimonial {
+  line-height: 35px;
+}
+.dept-recent-grads {
+  line-height: 27px;
+  font-size: 24px;
+}
+.dept-testimonial-h3,
+.dept-recent-grads-h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 34px !important;
+  color: #00582c !important;
+  margin-bottom: 20px !important;
+  font-weight: 700 !important;
+  line-height: 1.1em !important;
+}
+.dept-testimonial-row,
+.dept-recent-grads-row {
+  background-color: $brown_alt-2;
+  background-image: $noise;
+  padding: 30px 0 70px;
+  overflow: hidden;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.dept-testimonial-credit {
+  font-family: $sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+}
+.dept-testimonial-credit-paralax {
+  font-family: $sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  color: #d4d4d4;
+
+}
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #00582c;
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+figcaption {
+  text-align: right;
+  background-color: $green-wanna-transparent;
+  background-image: $noise;
+}
+figure {
+  border: 2px solid $green-wanna-transparent;
+  margin-bottom: 2rem;
+} // TABBED CONTAINER TEST
+#exTab2 {
+  .tab-content {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem 0px;
+    // border: 1px solid #999; // background-color: $green-wanna-transparent;
+    box-shadow: 0px 0px 5px #888;
+  }
+  .nav-tabs {
+    // background-color: $green-wanna-transparent;
+    font-family: $serif;
+    border: 0px solid #ddd; // margin-bottom: -1px;
+  }
+}
+.get-flexed {
+  display: flex;
+  flex-direction: column;
+}
+.stdnt-res-lede {
+  font-family: $sans-serif;
+  font-size: 21px;
+  color: #000;
+  line-height: 35px;
+  margin-bottom: 3rem!important;
+  margin-top: -1rem;
+}
+.researchers-slide-group {
+  margin-top: 1rem;
+  // display: flex; // flex-wrap: wrap;
+  ul {
+    padding-left: 10px;
+  }
+  ul li {
+    font-family: $serif;
+    font-size: 18px;
+    margin-bottom: 2rem;
+    line-height: 2.4rem;
+  }
+}
+.stdnt-res-desc-label {
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 5px;
+}
+#bio-student-recent-successes {
+  text-align: center;
+  padding: 0px;
+}
+#js-CycleList {
+  padding-left: 0px;
+  font-size: 21px;
+  font-family: $sans-serif;
+}
+#js-CycleList li {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.25s, opacity 0.25s;
+  left: 1px;
+  top: 15px;
+}
+#js-CycleList .highlight {
+  visibility: visible;
+  opacity: 1;
+}
+.faculty-profile-card-imgblock {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.faculty-profile-card-textblock {
+  font-family: $serif;
+}
+.faculty-profile-card-name {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+}
+.faculty-profile-card-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+.faculty-profile-card {
+  // background-color: $green-wanna-transparent; // background-image: $noise;
+  padding: 2rem;
+  box-shadow: 0px 0px 5px #888;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+}
+.no-dec {
+  text-decoration: none;
+  color: inherit;
+}
+.no-dec:hover,
+.no-dec:focus {
+  color: inherit;
+}
+.dept-student-researchers {
+  .stdnt-res-lede-2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: $serif;
+  }
+  // h2 {padding-bottom: 30px;}
+}
+.mediaGroup .heading {
+  padding-bottom: 30px;
+}
+.dept-news {
+  padding-left: 0px;
+  li {
+    list-style-type: square;
+    text-align: center;
+    font-family: $serif;
+    font-size: 18px;
+    line-height: 2.7rem;
+     text-shadow: 1px 1px 0px #999;
+     a{color:#23527c}
+     a:hover,a:focus{color: #337ab7;}
+  }
+}
+
+.dept-majors-minors {
+  ul {padding-left: 20px;font-family: $serif;font-size: 1.6rem;list-style-type: square;}
+
+}
+p.dept-degrees-additional {
+  font-size: 1.7rem;
+  font-family: $serif;
+  margin-top: 2rem;
+  // font-style: italic;
+  background-color: $green-wanna-transparent;
+  // background-image: $noise;
+  padding: 3rem;
+}
+.majorminorsubheading {
+  background-color: $green-wanna-transparent;
+  background-image: $noise;
+  padding: 1rem 1.5rem;
+  box-shadow: 1px 1px 1px #999;
+  
+}
+body {background: #dfdede;}
+.font-shadow-light {
+  text-shadow: 1px 1px 1px #888;
+}
