@@ -1,85 +1,816 @@
----
-layout: basic-layout
----
-<div class="container bodyContent">
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"
+>
+  <head>
+    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i%7CRoboto+Slab:400,700"
+      rel="stylesheet"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link
+      rel="shortcut icon"
+      href="https://www.rocky.edu/sites/all/themes/rmctheme/favicon.ico"
+      type="image/vnd.microsoft.icon"
+    />
+    <link rel="shortlink" href="/node/4" />
+    <link rel="canonical" href="/admissions" />
+    <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+    <title>Biology | RMC</title>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://www.rocky.edu/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css"
+      media="all"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://www.rocky.edu/sites/default/files/css/css_PWY2yoCBYe1bhgmT5G4ysYVV7xLRZg0OoVf7b5M9q7o.css"
+      media="all"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://www.rocky.edu/sites/default/files/css/css_Q5FxjF8-BeSRVn-jZr62L_rnnZ1rcLKRSGmFIlkMl5I.css"
+      media="all"
+    />
+    <style>
+      @media only screen and (min-width: 768px) {
+        .rowHero {
+          background-image: url(https://www.rocky.edu/sites/default/files/styles/inner_hero/public/inner_hero_admissions.jpg?itok=Wn4fpovx);
+        }
+      }
+      @media only screen and (max-width: 767px) {
+        .rowHero {
+          background-image: url(https://www.rocky.edu/sites/default/files/styles/inner_hero_mob/public/inner_hero_admissions.jpg?itok=N_9HEYOZ);
+        }
+      }
+      @media only screen and (min-width: 768px) {
+        .billboard.bb1 {
+          background-image: url(https://www.rocky.edu/sites/default/files/styles/hero_bill/public/admissions-bill01.jpg?itok=KItWpnX0);
+        }
+      }
+      @media only screen and (max-width: 767px) {
+        .billboard.bb1 {
+          background-image: url(https://www.rocky.edu/sites/default/files/styles/hero_bill_mob/public/admissions-bill01.jpg?itok=pRIr3Dgh);
+        }
+      }
+      @media only screen and (min-width: 768px) {
+        .billboard.bb2 {
+          background-image: url(https://www.rocky.edu/sites/default/files/styles/hero_bill/public/admissions-bill02.jpg?itok=KkiLq24o);
+        }
+      }
+      @media only screen and (max-width: 767px) {
+        .billboard.bb2 {
+          background-image: url(https://www.rocky.edu/sites/default/files/styles/hero_bill_mob/public/admissions-bill02.jpg?itok=Rc_sL5Dt);
+        }
+      }
+      @media only screen and (min-width: 768px) {
+        .billboard.bb3 {
+          background-image: url(https://www.rocky.edu/sites/default/files/styles/hero_bill/public/admissions-bill03.jpg?itok=-Bqoi6zd);
+        }
+      }
+      @media only screen and (max-width: 767px) {
+        .billboard.bb3 {
+          background-image: url(https://www.rocky.edu/sites/default/files/styles/hero_bill_mob/public/admissions-bill03.jpg?itok=xJ_0iuR4);
+        }
+      }
+    </style>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.min.css"
+      media="all"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://www.rocky.edu/sites/default/files/css/css_vLv3G_2PWYn6x8Gz_ofRjFUKcSmTX-Gg10kkD2PlmJs.css"
+      media="all"
+    />
+    <!-- HTML5 element support for IE6-8 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    <script src="https://www.rocky.edu/sites/default/files/js/js_SmgcDXQV0gcwSIOH9DFsKplDhCcI5aV-OS4RYYC_-lY.js"></script>
+    <script src="//cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://www.rocky.edu/sites/default/files/js/js_ptR1ZjZnexk8gj2Q9mIgM2M_6ztR4ckK-i_6gzFmlNM.js"></script>
+    <script src="https://www.rocky.edu/sites/default/files/js/js_FA2YSy0R3kB2AU_wIOLoSR0sJX4ZYjdPuPaRFd2ZDyw.js"></script>
+    <script>
+      jQuery.extend(Drupal.settings, {
+        basePath: "\/",
+        pathPrefix: "",
+        ajaxPageState: {
+          theme: "rmctheme",
+          theme_token: "ZdgQgyJtzRboaODqg6NAAEr0ir0P5DpGyefaF0XjUj4",
+          js: {
+            "sites\/all\/themes\/rmctheme\/scripts\/jquery.smartmenus.js": 1,
+            "sites\/all\/themes\/rmctheme\/scripts\/addons\/bootstrap\/jquery.smartmenus.bootstrap.js": 1,
+            "sites\/all\/themes\/rmctheme\/scripts\/rmctheme.js": 1,
+            "sites\/all\/themes\/bootstrap\/js\/bootstrap.js": 1,
+            "sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js": 1,
+            "misc\/jquery.once.js": 1,
+            "misc\/drupal.js": 1,
+            "sites\/all\/libraries\/fitvids\/jquery.fitvids.js": 1,
+            "\/\/cdn.jsdelivr.net\/bootstrap\/3.3.7\/js\/bootstrap.min.js": 1,
+            "sites\/all\/modules\/contrib\/fitvids\/fitvids.js": 1,
+            "sites\/all\/modules\/contrib\/custom_search\/js\/custom_search.js": 1
+          },
+          css: {
+            "modules\/system\/system.base.css": 1,
+            "modules\/field\/theme\/field.css": 1,
+            "sites\/all\/modules\/contrib\/fitvids\/fitvids.css": 1,
+            "modules\/node\/node.css": 1,
+            "sites\/all\/modules\/contrib\/views\/css\/views.css": 1,
+            "sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css": 1,
+            "sites\/all\/modules\/contrib\/ctools\/css\/ctools.css": 1,
+            "sites\/all\/modules\/contrib\/custom_search\/custom_search.css": 1,
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "\/\/cdn.jsdelivr.net\/bootstrap\/3.3.7\/css\/bootstrap.min.css": 1,
+            "sites\/all\/themes\/bootstrap\/css\/3.3.7\/overrides.min.css": 1,
+            "sites\/all\/themes\/rmctheme\/scripts\/addons\/bootstrap\/jquery.smartmenus.bootstrap.css": 1,
+            "sites\/all\/themes\/rmctheme\/css\/style.css": 1
+          }
+        },
+        custom_search: { form_target: "_self", solr: 0 },
+        fitvids: {
+          custom_domains: [],
+          selectors: ["body"],
+          simplifymarkup: true
+        },
+        urlIsAjaxTrusted: { "\/admissions": true },
+        bootstrap: {
+          anchorsFix: "0",
+          anchorsSmoothScrolling: "0",
+          formHasError: 1,
+          popoverEnabled: 1,
+          popoverOptions: {
+            animation: 1,
+            html: 0,
+            placement: "right",
+            selector: "",
+            trigger: "click",
+            triggerAutoclose: 1,
+            title: "",
+            content: "",
+            delay: 0,
+            container: "body"
+          },
+          tooltipEnabled: 1,
+          tooltipOptions: {
+            animation: 1,
+            html: 0,
+            placement: "auto left",
+            selector: "",
+            trigger: "hover focus",
+            delay: 0,
+            container: "body"
+          }
+        }
+      });
+    </script>
 
-      <div class="row  " style="padding-top:0px;">
-                  <div class="col-xs-12 col-lg-6">
-                    <div class="dept-intro-text-wrap">
-                      <!-- <i class="fas fa-quote-left "></i> -->
-                      <p class="dept-intro-quote inline">
-                        Research excellence. Job readiness.
-                      </p>
-                      <!-- <i class="fas fa-quote-right"></i> -->
-                      <p class="dept-intro-text">
-                        This is a block of snappy copy that sells the program to
-                        prospective students by embodying the essence of the
-                        department. Id duis fugiat fugiat laboris sunt ipsum Lorem
-                        nulla esse aute minim mollit. Consectetur aliqua irure
-                        excepteur ex commodo esse. Ea deserunt do sint cillum.
-                        Consectetur aliqua irure excepteur ex commodo esse. Id duis
-                        fugiat fugiat laboris sunt ipsum Lorem nulla esse aute minim
-                        mollit. Id duis fugiat fugiat laboris sunt ipsum Lorem nulla
-                        esse aute minim mollit.
-                      </p>
-                    </div>
+    <!-- Brad added these -->
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/animate.css" />
+    <link rel="stylesheet" href="/css/hover-min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+      integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body
+    class="html not-front not-logged-in no-sidebars page-node page-node- page-node-4 node-type-landing-page"
+  >
+    <!-- WAS <body> -->
+    <div class="headerGhost"></div>
 
-                    <a href="#student-researchers" id="">
-                      <div class="dept-subnav-buttony">
-                        <span>Explore the program</span>
-                        <i class="fas fa-arrow-down"></i></div
-                    ></a>
-                  </div>
-                  <div class="col-xs-12 col-lg-6 ">
-                    <div class="dept-top-video-wrap">
-                      <video
-                        src="/img/video/Pexels Videos 1422633.mp4"
-                        controls
-                        id="bio-top-video"
-                      ></video>
-                      <caption>
-                        <h4 class="dept-top-video-caption">
-                          Hear from a current student
-                        </h4>
-                      </caption>
-                    </div>
-               
+    <ul class="skip-links" aria-label="skip links">
+      <li><a href="#mainContainer"> Skip to main content </a></li>
+      <li><a href="#block-system-main-menu"> Skip to Main Menu </a></li>
+    </ul>
+    <header
+      id="navbar"
+      class="navbar navbar-default affix-top"
+      data-spy="affix"
+      data-offset-top="1"
+    >
+      <!-- SEARCH BAR -->
+      <div id="searchTop" class="searchTop">
+        <div class="region region-search-top">
+          <div
+            id="block-custom-search-blocks-1"
+            class="block block-custom-search-blocks clearfix"
+          >
+            <form
+              class="search-form"
+              role="search"
+              action="/admissions"
+              method="post"
+              id="custom-search-blocks-form-1"
+              accept-charset="UTF-8"
+            >
+              <div>
+                <div
+                  class="form-item form-item-custom-search-blocks-form-1 form-type-textfield form-group"
+                >
+                  <input
+                    title="Enter the terms you wish to search for."
+                    class="custom-search-box form-control form-text"
+                    placeholder=""
+                    type="text"
+                    id="edit-custom-search-blocks-form-1--2"
+                    name="custom_search_blocks_form_1"
+                    value=""
+                    size="15"
+                    maxlength="128"
+                  />
+                  <label
+                    class="control-label element-invisible"
+                    for="edit-custom-search-blocks-form-1--2"
+                    >Search this site</label
+                  >
                 </div>
-    </div>
-
-
-</div>
-<div class="container-fluid">
-    <div class="row dept-testimonial-row">
-        <div class="col-xs-12">
-            <h3 class="center dept-testimonial-h3">Supporting student growth</h3>
-            <div class="contentWidth3">
-                <p class="center italics dept-testimonial">"This is a testimonial quote from a student where they talk
-                    about how awesome Biology has been for them." <span class="dept-testimonial-credit"><br>Frodo
-                        Baggins |
-                        Class of 2050</span></p>
-            </div>
+                <input type="hidden" name="delta" value="1" />
+                <input
+                  type="hidden"
+                  name="form_build_id"
+                  value="form-pAfGUsVZA4G5qX-0OHxRUjSGEeo8oJ-W-wS4yZiswgQ"
+                />
+                <input
+                  type="hidden"
+                  name="form_id"
+                  value="custom_search_blocks_form_1"
+                />
+                <div
+                  class="form-actions form-wrapper form-group"
+                  id="edit-actions"
+                >
+                  <button
+                    type="submit"
+                    id="edit-submit"
+                    name="op"
+                    value="Search"
+                    class="btn btn-primary form-submit"
+                  >
+                    Search
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-    </div>
-</div>
-<div class="container-fluid dept-student-researchers">
-    <div class="container">
-        <section class="row body-content notop">
-            <!-- <section class="row body-content mediaGroup "> -->
-            <div class="col-xs-12">
-                <!-- <div class="col-xs-12 heading"> -->
-                <h2 id="student-researchers">Student Researchers</h2>
-                <p class="stdnt-res-lede"><em>One way in which our students excel is by doing graduate level research
-                        projects.</em></p>
+      </div>
+      <!-- END - SEARCH BAR -->
+
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            id="openSearchM"
+            title="toggle search"
+            value="Mobile Search Toggle"
+            aria-label="Mobile Search Toggle"
+          >
+            <span class="rmcicon-search" aria-hidden="true"></span>
+          </button>
+
+          <a class="logo navbar-btn" href="/" title="Home">
+            <span class="sr-only">Rocky Mountain College</span>
+          </a>
+
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#navbar-collapse"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+          <div class="navigations">
+            <!-- /#terts -->
+
+            <!-- /#test1 -->
+            <div class="region region-navigation">
+              <div class="contentWidth">
+                <nav
+                  id="block-system-main-menu"
+                  class="block block-system block-menu rmcMainMenu clearfix"
+                  aria-label="Main Navigation"
+                >
+                  <ul class="menu nav navbar-nav menu-tree--main-menu-menu">
+                    <li class="first expanded dropdown">
+                      <a
+                        href="/about-rmc"
+                        data-target="#"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown"
+                        >About RMC <span class="caret"></span
+                      ></a>
+                      <ul class="dropdown-menu">
+                        <li class="first collapsed">
+                          <a href="/about-rmc/history-traditions"
+                            >History &amp; Traditions</a
+                          >
+                        </li>
+                        <li class="collapsed">
+                          <a href="/about-rmc/city-billings"
+                            >City of Billings</a
+                          >
+                        </li>
+                        <li class="leaf">
+                          <a href="/peacestudies"
+                            >Institute for Peace Studies</a
+                          >
+                        </li>
+                        <li class="collapsed">
+                          <a href="/about-rmc/institutional-research"
+                            >Institutional Research</a
+                          >
+                        </li>
+                        <li class="collapsed">
+                          <a href="/about-rmc/leadership">Leadership</a>
+                        </li>
+                        <li class="last collapsed">
+                          <a href="/about-rmc/office-marketing-communications"
+                            >Office of Marketing &amp; Communications</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="expanded dropdown">
+                      <a
+                        href="/academics"
+                        data-target="#"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown"
+                        >Academics <span class="caret"></span
+                      ></a>
+                      <ul class="dropdown-menu">
+                        <li class="first leaf">
+                          <a href="/academics/academic-programs"
+                            >Academic Programs</a
+                          >
+                        </li>
+                        <li class="collapsed">
+                          <a href="/library">Library</a>
+                        </li>
+                        <li class="collapsed">
+                          <a href="/academics/academic-support"
+                            >Academic Support</a
+                          >
+                        </li>
+                        <li class="collapsed">
+                          <a href="/academics/academic-calendar"
+                            >Academic Calendar</a
+                          >
+                        </li>
+                        <li class="collapsed">
+                          <a href="/academics/office-student-records"
+                            >Office of Student Records</a
+                          >
+                        </li>
+                        <li class="last leaf">
+                          <a href="/academics/course-catalog">Course Catalog</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="expanded active-trail active dropdown">
+                      <a
+                        href="/admissions"
+                        class="active-trail dropdown-toggle active"
+                        data-target="#"
+                        data-toggle="dropdown"
+                        >Admissions &amp; Aid <span class="caret"></span
+                      ></a>
+                      <ul class="dropdown-menu">
+                        <li class="first leaf">
+                          <a href="/admissions-aid/future-students"
+                            >Future Students</a
+                          >
+                        </li>
+                        <li class="collapsed">
+                          <a href="/admissions-aid/financial-aid"
+                            >Financial Aid</a
+                          >
+                        </li>
+                        <li class="collapsed">
+                          <a href="/admissions-aid/tuition-fees"
+                            >Tuition &amp; Fees</a
+                          >
+                        </li>
+                        <li class="collapsed">
+                          <a href="/admissions-aid/rmc-near-you"
+                            >RMC Near You</a
+                          >
+                        </li>
+                        <li class="collapsed">
+                          <a href="/admissions-aid/admitted-students"
+                            >Admitted Students</a
+                          >
+                        </li>
+                        <li class="last leaf">
+                          <a
+                            href="/admissions-aid/high-school-guidance-counselors"
+                            >High School Guidance Counselors</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="expanded dropdown">
+                      <a
+                        href="/campus-life"
+                        data-target="#"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown"
+                        >Campus Life <span class="caret"></span
+                      ></a>
+                      <ul class="dropdown-menu">
+                        <li class="first collapsed">
+                          <a href="/campus-life/student-activities"
+                            >Activities</a
+                          >
+                        </li>
+                        <li class="leaf">
+                          <a
+                            href="https://www.bkstr.com/Home/10001-10229-1"
+                            target="_blank"
+                            >Bookstore</a
+                          >
+                        </li>
+                        <li class="leaf">
+                          <a href="/campus-life/campus-safety">Campus Safety</a>
+                        </li>
+                        <li class="collapsed">
+                          <a href="/careerservices">Career Services</a>
+                        </li>
+                        <li class="collapsed">
+                          <a href="/campus-life/health-wellness"
+                            >Health &amp; Wellness</a
+                          >
+                        </li>
+                        <li class="collapsed">
+                          <a href="/housing">Housing &amp; Dining</a>
+                        </li>
+                        <li class="last collapsed">
+                          <a href="/campus-life/student-life-offices"
+                            >Student Life Offices</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="expanded dropdown">
+                      <a
+                        href="http://gobattlinbears.com/index.aspx"
+                        target="_blank"
+                        data-target="#"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown"
+                        >Athletics <span class="caret"></span
+                      ></a>
+                      <ul class="dropdown-menu">
+                        <li class="first leaf">
+                          <a
+                            href="http://gobattlinbears.com/index.aspx"
+                            target="_blank"
+                            >GoBattlinBears.com</a
+                          >
+                        </li>
+                        <li class="leaf">
+                          <a
+                            href="http://gobattlinbears.com/calendar.aspx?vtype=list&amp;preset=current"
+                            target="_blank"
+                            >RMC Athletics Calendar</a
+                          >
+                        </li>
+                        <li class="leaf">
+                          <a href="/athletics/fortin-fitness-center"
+                            >Fortin Fitness Center</a
+                          >
+                        </li>
+                        <li class="last collapsed">
+                          <a href="/athletics/camps-conferences"
+                            >Camps &amp; Conferences</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="last expanded dropdown">
+                      <a
+                        href="/alumni"
+                        data-target="#"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown"
+                        >Alumni <span class="caret"></span
+                      ></a>
+                      <ul class="dropdown-menu">
+                        <li class="first leaf">
+                          <a href="/alumni/alumni-events">Alumni Events</a>
+                        </li>
+                        <li class="collapsed">
+                          <a href="/alumni/alumni-pride">Alumni Pride</a>
+                        </li>
+                        <li class="last collapsed">
+                          <a href="/alumni/alumni-resources"
+                            >Alumni Resources</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             </div>
 
+            <div class="region region-tert-navigation">
+              <div class="contentWidth">
+                <nav
+                  id="block-menu-menu-tert1-menu"
+                  class="block block-menu tertMenu rmcTert1Menu clearfix"
+                  aria-label="Tertiary Menu 1"
+                >
+                  <ul class="menu nav navbar-nav tert1-menu-menu">
+                    <li class="first leaf"><a href="/calendar">Calendar</a></li>
+                    <li class="leaf"><a href="/directory">Directory</a></li>
+                    <li class="leaf"><a href="/giving" title="">Give</a></li>
+                    <li class="last leaf">
+                      <a href="/resources" title="">Resources</a>
+                    </li>
+                  </ul>
+                </nav>
+                <nav
+                  id="block-menu-menu-tert2-menu"
+                  class="block block-menu tertMenu rmcTert2Menu clearfix"
+                  aria-label="Tertiary Menu 2"
+                >
+                  <ul class="menu nav navbar-nav tert2-menu-menu">
+                    <li class="first leaf"><a href="/apply">Apply</a></li>
+                    <li class="leaf">
+                      <a href="/enrollment-deposit" title="">Deposit</a>
+                    </li>
+                    <li class="leaf">
+                      <a href="/admissions-aid/request-information" title=""
+                        >Request Info</a
+                      >
+                    </li>
+                    <li class="last leaf">
+                      <a href="/admissions-aid/visit-rmc" title="">Visit RMC</a>
+                    </li>
+                  </ul>
+                </nav>
+                <button
+                  id="openSearch"
+                  title="toggle search"
+                  value="Search Toggle"
+                  aria-label="Search Toggle"
+                >
+                  <span class="rmcicon-search" aria-hidden="true"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Facebook Pixel Code -->
+      <script>
+        !(function(f, b, e, v, n, t, s) {
+          if (f.fbq) return;
+          n = f.fbq = function() {
+            n.callMethod
+              ? n.callMethod.apply(n, arguments)
+              : n.queue.push(arguments);
+          };
+          if (!f._fbq) f._fbq = n;
+          n.push = n;
+          n.loaded = !0;
+          n.version = "2.0";
+          n.queue = [];
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s);
+        })(
+          window,
+          document,
+          "script",
+          "https://connect.facebook.net/en_US/fbevents.js"
+        );
+        fbq("init", "432971683723528");
+        fbq("track", "PageView");
+      </script>
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          src="https://www.facebook.com/tr?id=432971683723528&ev=PageView
+&noscript=1"
+        />
+      </noscript>
+      <!-- End Facebook Pixel Code -->
+
+      <!-- Facebook Pixel Code -->
+      <script>
+        !(function(f, b, e, v, n, t, s) {
+          if (f.fbq) return;
+          n = f.fbq = function() {
+            n.callMethod
+              ? n.callMethod.apply(n, arguments)
+              : n.queue.push(arguments);
+          };
+          if (!f._fbq) f._fbq = n;
+          n.push = n;
+          n.loaded = !0;
+          n.version = "2.0";
+          n.queue = [];
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s);
+        })(
+          window,
+          document,
+          "script",
+          "https://connect.facebook.net/en_US/fbevents.js"
+        );
+        fbq("init", "276454673081242");
+        fbq("track", "PageView");
+      </script>
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          src="https://www.facebook.com/tr?id=446690165832710&ev=PageView
+&noscript=1"
+        />
+      </noscript>
+      <!-- End Facebook Pixel Code -->
+    </header>
+
+    <div id="mainContainer" class="main-container container-fluid">
+      <div class="row containingRow">
+        <div
+          id="node-4"
+          class="col-xs-12 containingCol landingCol node node-landing-page"
+          about="/admissions"
+          typeof="sioc:Item foaf:Document"
+        >
+          <section class="row rowHero">
+            <div class="hero col-xs-12">
+              <div class="titleAngleWrap">
+                <div class="titleRow angled">
+                  <div class="contentWidth"><h1>Biology</h1></div>
+                </div>
+                <!-- titleRow -->
+              </div>
+            </div>
+            <!-- end hero column -->
+          </section>
+          <!-- END- rowHero -->
+
+          <div class="row breadCrumbs">
+            <div class="contentWidth">
+              <div class="col-xs-12">
+                <ol class="breadcrumb" style="background:#dfdede ">
+                  <li><a href="/">Home</a></li>
+                  <li class="active">Admissions &amp; Aid</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <!-- END- bread -->
+
+          <!--
+            <div class="row childMenu">
+            	<div class="contentWidth">
+            		<div class="col-xs-12">
+            		<div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+              <ul class="menu nav navbar-nav menu-tree-menu"><li class="first leaf menu-mlid-655"><a href="/admissions-aid/future-students">Future Students</a></li>
+            <li class="leaf has-children menu-mlid-664"><a href="/admissions-aid/financial-aid">Financial Aid</a></li>
+            <li class="leaf has-children menu-mlid-671"><a href="/admissions-aid/tuition-fees">Tuition &amp; Fees</a></li>
+            <li class="leaf has-children menu-mlid-675"><a href="/admissions-aid/rmc-near-you">RMC Near You</a></li>
+            <li class="leaf has-children menu-mlid-678"><a href="/admissions-aid/admitted-students">Admitted Students</a></li>
+            <li class="last leaf menu-mlid-685"><a href="/admissions-aid/high-school-guidance-counselors">High School Guidance Counselors</a></li>
+            </ul></div>
 
 
+            		</div>
+            	</div>
+            </div>
+          -->
+          <div class="container">
+            <div class="row  " style="padding-top:0px;margin-bottom: 5rem;">
+              <div class="col-xs-12 col-lg-6">
+                <div class="dept-intro-text-wrap">
+                  <!-- <i class="fas fa-quote-left "></i> -->
+                  <!-- <p class="dept-intro-quote inline">
+                    Research excellence. Job readiness.
+                  </p> -->
+                  <h2>Research Excellence.<br>Job Readiness.</h2>
+                  <!-- <i class="fas fa-quote-right"></i> -->
+                  <p class="dept-intro-text">
+                    This is a block of snappy copy that sells the program to
+                    prospective students by embodying the essence of the
+                    department. Id duis fugiat fugiat laboris sunt ipsum Lorem
+                    nulla esse aute minim mollit. Consectetur aliqua irure
+                    excepteur ex commodo esse. Ea deserunt do sint cillum.
+                    Consectetur aliqua irure excepteur ex commodo esse. Id duis
+                    fugiat fugiat laboris sunt ipsum Lorem nulla esse aute minim
+                    mollit. Id duis fugiat fugiat laboris sunt ipsum Lorem nulla
+                    esse aute minim mollit.
+                  </p>
+                </div>
 
-            <div id="exTab2" class="">
+                <!-- <a href="#student-researchers" id="">
+                  <div class="dept-subnav-buttony">
+                    <span>Explore the program</span>
+                    <i class="fas fa-arrow-down"></i></div
+                ></a> -->
+              </div>
+              <div class="col-xs-12 col-lg-6 ">
+                <div class="dept-top-video-wrap">
+                  <video
+                    src="/img/video/Pexels Videos 1422633.mp4"
+                    controls
+                    id="bio-top-video"
+                  ></video>
+                  <caption>
+                    <h4 class="dept-top-video-caption">
+                      Hear from a current student
+                    </h4>
+                  </caption>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          <section class="row billboard bb1 v2">
+            <div class="contentWidth">
+              <div class="col-sm-6 col-xs-12 contentRight">
+                <h2>Supporting student growth</h2>
+                <p class="  italics dept-testimonial font-shadow-light">
+                  "This is a testimonial quote from a student where they talk
+                  about how awesome Biology has been for them."
+                  <span
+                    class="dept-testimonial-credit-paralax font-shadow-light"
+                    ><br />Frodo Baggins | Class of 2050</span
+                  >
+                </p>
+                <a class="btn btn3" href="/admissions-aid/visit-rmc"
+                  >Learn More</a
+                >
+                <!--
+                  <div class="text"><p>Visiting our campus and&nbsp;taking a tour is the best way to get firsthand information about Rocky Mountain College. You can schedule an individualized visit or attend one of our scheduled preview days.</p></div>
+                  <a class="btn btn3" href="/admissions-aid/visit-rmc">Visit RMC</a>
+                -->
+              </div>
+              <!-- END- contentRight -->
+            </div>
+            <!-- END- contentWidth -->
+          </section>
+          <!-- END- billboard v2 -->
+          <section class="row testimonialRow  ">
+            <div class="contentWidth3" style="padding-bottom:15px;">
+              <div class="col-xs-12 text-center">
+                <h3 id="student-researchers">Student Researchers</h3>
+                <p class="stdnt-res-lede">
+                  <em>Graduate quality research from undergraduates.</em>
+                </p>
+              </div>
+            </div>
+
+             <div class="container">
+              <div id="exTab2" class="">
 
 
-                <ul class="nav nav-tabs ">
+                <ul class="nav nav-tabs " style="margin-bottom:0px;">
                     <li class="active">
                         <a href="#stdnt-res-1" data-toggle="tab">Jane Jenkins</a>
                     </li>
@@ -98,367 +829,360 @@ layout: basic-layout
                                     <figcaption>Explore at SlideShare <i class="fas fa-external-link-square-alt"></i></figcaption>
                                 </figure>
                             </div>
-                            <ul>
-                                <li><span class="stdnt-res-desc-label">Title:</span> This is a research title that is
-                                    probably long because most science titles are kinda long.</li>
-                                <li><span class="stdnt-res-desc-label">Authors:</span> Two authors names, Authors name.</li>
-                                <li><span class="stdnt-res-desc-label">Description:</span>In nulla id aliquip eu labore
-                                    enim voluptate ad deserunt laborum excepteur quis fugiat. Et incididunt nulla
-                                    tempor magna irure ad. Ullamco adipisicing qui exercitation ullamco excepteur
-                                    fugiat in ipsum fugiat ex reprehenderit. Nulla sint aute ut dolore ea consectetur.
-                                    Excepteur in deserunt consectetur pariatur irure mollit.</li>
-                            </ul>
+                            <div class="col-md-7"><ul>
+                            <li><span class="stdnt-res-desc-label">Title:</span> This is a research title that is
+                            probably long because most science titles are kinda long.</li>
+                            <li><span class="stdnt-res-desc-label">Authors:</span> Two authors names, Authors name.</li>
+                            <li><span class="stdnt-res-desc-label">Description:</span>In nulla id aliquip eu labore
+                            enim voluptate ad deserunt laborum excepteur quis fugiat. Et incididunt nulla
+                            tempor magna irure ad. Ullamco adipisicing qui exercitation ullamco excepteur
+                            fugiat in ipsum fugiat ex reprehenderit. Nulla sint aute ut dolore ea consectetur.
+                            Excepteur in deserunt consectetur pariatur irure mollit.</li>
+                            </ul></div>
 
                         </div>
                     </div>
                     <div class="tab-pane" id="stdnt-res-2">
-                        <div class="researchers-slide-group">
-                            <div class="col-md-5">
-                                <figure>
-                                    <img src='https://placehold.it/393x234' alt='' />
-                                    <figcaption>Explore at SlideShare <i class="fas fa-external-link-square-alt"></i></figcaption>
-                                </figure>
-                            </div>
-                            <div class="col-md-7 noleftp">
-                                <ul>
-                                    <li><span class="stdnt-res-desc-label">Title:</span> This is a research title that
-                                        is probably long because most science titles are kinda long. Doncha know.</li>
-                                    <li><span class="stdnt-res-desc-label">Authors:</span> JoeJoe Jankins and Freddie
-                                        Flowers</li>
-                                    <li><span class="stdnt-res-desc-label">Description:</span>In nulla id aliquip eu
-                                        labore enim voluptate ad deserunt laborum excepteur quis fugiat. Et incididunt
-                                        nulla tempor magna irure ad. Ullamco adipisicing qui exercitation ullamco
-                                        excepteur fugiat in ipsum fugiat ex reprehenderit. Nulla sint aute ut dolore ea
-                                        consectetur. </li>
-                                </ul>
-                            </div>
-
+                      <div class="researchers-slide-group">
+                        <div class="col-md-5">
+                            <figure>
+                                <img src='/img/stdnt-res-slide-temp.jpg' alt='' />
+                                <figcaption>Explore at SlideShare <i class="fas fa-external-link-square-alt"></i></figcaption>
+                            </figure>
                         </div>
+                        <div class="col-md-7"><ul>
+                        <li><span class="stdnt-res-desc-label">Title:</span> Proteins!!!!</li>
+                        <li><span class="stdnt-res-desc-label">Authors:</span> Two authors names, Authors name.</li>
+                        <li><span class="stdnt-res-desc-label">Description:</span>In nulla id aliquip eu labore
+                        enim voluptate ad deserunt laborum excepteur quis fugiat. Et incididunt nulla
+                        tempor magna irure ad. Ullamco adipisicing qui exercitation ullamco excepteur
+                        fugiat in ipsum fugiat ex reprehenderit. Nulla sint aute ut dolore ea consectetur.
+                        Excepteur in deserunt consectetur pariatur irure mollit.</li>
+                        </ul></div>
+
+                    </div>
                     </div>
                     <div class="tab-pane" id="stdnt-res-3">
-                        <div class="researchers-slide-group">
-                            <div class="col-md-5">
-                                <figure>
-                                    <img src='https://placehold.it/393x234' alt='' />
-                                    <figcaption>Explore at SlideShare <i class="fas fa-external-link-square-alt"></i></figcaption>
-                                </figure>
-                            </div>
-                            <div class="col-md-7 noleftp">
-                                <ul>
-                                    <li><span class="stdnt-res-desc-label">Title:</span> This is a research title that
-                                        is probably long because most science titles are kinda long.</li>
-                                    <li><span class="stdnt-res-desc-label">Authors:</span> JoeJoe Jankins and Freddie
-                                        Flowers</li>
-                                    <li><span class="stdnt-res-desc-label">Description:</span>In nulla id aliquip eu
-                                        labore enim voluptate ad deserunt laborum excepteur quis fugiat. Et incididunt
-                                        nulla tempor magna irure ad. Ullamco adipisicing qui exercitation ullamco
-                                        excepteur fugiat in ipsum fugiat ex reprehenderit. Nulla sint aute ut dolore ea
-                                        consectetur. Excepteur in deserunt consectetur pariatur irure mollit. Excepteur
-                                        in deserunt consectetur pariatur irure mollit. Excepteur in deserunt
-                                        consectetur pariatur irure mollit.</li>
-                                </ul>
-                            </div>
+                      <div class="researchers-slide-group">
+                        <div class="col-md-5">
+                            <figure>
+                                <img src='/img/stdnt-res-slide-temp.jpg' alt='' />
+                                <figcaption>Explore at SlideShare <i class="fas fa-external-link-square-alt"></i></figcaption>
+                            </figure>
                         </div>
+                        <div class="col-md-7"><ul>
+                        <li><span class="stdnt-res-desc-label">Title:</span> This is a research title that is
+                        probably long because most science titles are kinda long.</li>
+                        <li><span class="stdnt-res-desc-label">Authors:</span> Two authors names, Authors name.</li>
+                        <li><span class="stdnt-res-desc-label">Description:</span>In nulla id aliquip eu labore
+                        enim voluptate ad deserunt laborum excepteur quis fugiat. Et incididunt nulla
+                        tempor magna irure ad. Ullamco adipisicing qui exercitation ullamco excepteur
+                        fugiat in ipsum fugiat ex reprehenderit.  .</li>
+                        </ul></div>
+
                     </div>
                 </div>
             </div>
-        </section>
-
-
-    </div>
-
-
-
-
-</div>
-<div class="container-fluid">
-    <section class="row dept-recent-grads-row">
-        <h3 class="center dept-recent-grads-h3">Career Pathways</h3>
-        <div class="contentWidth3">
-            <div class="col-sm-4">
-                <p class="center dept-recent-grads">Recent Graduates: </p>
+             </div>
+          </section>
+          <!-- END-  testimonialRow -->
+          <section class="row billboard bb2 v2">
+            <div class="contentWidth">
+              <div class="col-sm-6 col-xs-12 contentLeft">
+                <h2 style="margin-bottom:10px;">Career Pathways</h2>
+                <div class="text" style="display:block">
+                  
+                    <ul id="recent-grads-bio" style="padding-left:0px;">
+                      <span class="bold mb1r font-shadow-light">Recent Graduates:</span>
+                      <li class="dept-career">Justan Baker, Masters of Public Health program</li>
+                      <li class="dept-career">Tana Beedee, Physician Assistant program</li>
+                      <li class="dept-career">Treve Icenoggle, Medical school</li>
+                      <li class="dept-highlight dept-career">David Jurovich, Pharmacy school </li>
+                    
+                      <li class="dept-career"> Mallory Kelley, Doctor of Osteophathy school</li>
+                      
+                      <li class="dept-career">Morgan Mazurkiewicz, Occupational Therapy program</li>
+                  </ul>
+                 
+                </div>
+                <a class="btn btn3" href="#explore-more"
+                  >Biology Major Details</a
+                > 
+              </div>
+              <!-- END- contentRight -->
             </div>
-            <div class="col-sm-8">
-                <ul id="js-CycleList">
-                    <li class="dept-highlight dept-career">David Jurovich, Pharmacy school </li>
-                    <li class="dept-career">Treve Icenoggle, Medical school</li>
-                    <li class="dept-career"> Mallory Kelley, Doctor of Osteophathy school</li>
-                    <li class="dept-career">Justan Baker, Masters of Public Health program</li>
-                    <li class="dept-career">Tana Beedee, Physician Assistant program</li>
-                    <li class="dept-career">Morgan Mazurkiewicz, Occupational Therapy program</li>
+            <!-- END- contentWidth -->
+          </section>
+          <!-- END- billboard v2 -->
+          <section class="row    ">
+            <div class="" style="padding-bottom:15px;">
+              <div class="container-fluid dept-student-researchers">
+                <div class="container">
+                    <section class="row  ">
+                        <!-- <section class="row mediaGroup "> -->
+                        <div class="col-xs-12 heading text-center">
+                            <h2>Active Faculty</h2>
+                            <p class="stdnt-res-lede"><em>Engaged with students. Active in the field. <br></em></p>
+                        </div>
+            
+                        <div class="row  ">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="" class="no-dec">
+                                    <div class="faculty-profile-card">
+                                        <div class="faculty-profile-card-imgblock">
+                                            <img src="/img/circle-headshots/Jen-Shefner-Circle-Headshot.png" alt="" width="150">
+                                        </div>
+                                        <div class="faculty-profile-card-textblock">
+                                            <p class="faculty-profile-card-name">Person Name</p>
+                                            <p class="faculty-profile-card-description">I figure we want to put a little bit of
+                                                text here. What kind of info to put here can be determined. </p>
+                                            <p class="faculty-profile-card-link"><a href="">full bio </a></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="" class="no-dec">
+                                    <div class="faculty-profile-card">
+                                        <div class="faculty-profile-card-imgblock">
+                                            <img src="/img/circle-headshots/Circle-Headshot.png" alt="" width="150">
+                                        </div>
+                                        <div class="faculty-profile-card-textblock">
+                                            <p class="faculty-profile-card-name">Person Name</p>
+                                            <p class="faculty-profile-card-description">I figure we want to put a little bit of
+                                                text here. What kind of info to put here can be determined. </p>
+                                            <p class="faculty-profile-card-link"><a href="">full bio </a></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="" class="no-dec">
+                                    <div class="faculty-profile-card">
+                                        <div class="faculty-profile-card-imgblock">
+                                            <img src="/img/circle-headshots/images.jpeg" alt="" width="150">
+                                        </div>
+                                        <div class="faculty-profile-card-textblock">
+                                            <p class="faculty-profile-card-name">Person Name</p>
+                                            <p class="faculty-profile-card-description">I figure we want to put a little bit of
+                                                text here. What kind of info to put here can be determined. </p>
+                                            <p class="faculty-profile-card-link"><a href="">full bio </a></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                         
+            
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="" class="no-dec">
+                                    <div class="faculty-profile-card">
+                                        <div class="faculty-profile-card-imgblock">
+                                            <img src="/img/circle-headshots/Marcus-Gardley-Headshot-High-Res_circle.png" alt=""
+                                                width="150">
+                                        </div>
+                                        <div class="faculty-profile-card-textblock">
+                                            <p class="faculty-profile-card-name">Person Name</p>
+                                            <p class="faculty-profile-card-description">I figure we want to put a little bit of
+                                                text here. What kind of info to put here can be determined.. </p>
+                                            <p class="faculty-profile-card-link"><a href="">full bio </a></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row notop">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="#" class="no-dec">
+                                    <div class="faculty-profile-card">
+                                        <div class="faculty-profile-card-imgblock">
+                                            <img src="/img/circle-headshots/Memory-Headshot-Circle-Border1-e1448272993765.png" alt=""
+                                                width="150">
+                                        </div>
+                                        <div class="faculty-profile-card-textblock">
+                                            <p class="faculty-profile-card-name">Person Name</p>
+                                            <p class="faculty-profile-card-description">I figure we want to put a little bit of
+                                                text here. What kind of info to put here can be determined. </p>
+                                            <p class="faculty-profile-card-link"><a href="">full bio </a></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="" class="no-dec">
+                                    <div class="faculty-profile-card">
+                                        <div class="faculty-profile-card-imgblock">
+                                            <img src="/img/circle-headshots/rachel-circle-headshot.png" alt="" width="150">
+                                        </div>
+                                        <div class="faculty-profile-card-textblock">
+                                            <p class="faculty-profile-card-name">Person Name</p>
+                                            <p class="faculty-profile-card-description">I figure we want to put a little bit of
+                                                text here. What kind of info to put here can be determined. </p>
+                                            <p class="faculty-profile-card-link"><a href="">full bio </a></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="" class="no-dec">
+                                    <div class="faculty-profile-card">
+                                        <div class="faculty-profile-card-imgblock">
+                                            <img src="/img/circle-headshots/TARR-headshot-smallcircle-300x300.png" alt="" width="150">
+                                        </div>
+                                        <div class="faculty-profile-card-textblock">
+                                            <p class="faculty-profile-card-name">Person Name</p>
+                                            <p class="faculty-profile-card-description">I figure we want to put a little bit of
+                                                text here. What kind of info to put here can be determined. </p>
+                                            <p class="faculty-profile-card-link"><a href="">full bio </a></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                    </section>
+            
+            
+                </div>
+            </div>
+          </div></section>
+          <!-- END- factoidsRow -->
+          <section class="row billboard bb3 v2">
+            <div class="contentWidth">
+              <div class="col-sm-6 col-xs-12 contentLeft">
+                <h2>Department News</h2>
+                <div class="text" style="display:block;">
+                  <ul class="dept-news" >
+                    <li><a href="">This is news item one. Aren't we awesome?</a></li>
+                    <li><a href="">Another news item. Still awesome!</a></li>
+                    <li><a href="">This one is less impressive. But hey, that's okay too.</a></li><li><a href="">Another news item.  </a></li>
                 </ul>
+                </div>
+                <!-- <a class="btn btn3" href="/academics/academic-programs"
+                  >Academic Programs</a
+                > -->
+              </div>
+              <!-- END- contentRight -->
             </div>
+            <!-- END- contentWidth -->
+          </section>
 
-
+          <section class="row    " id="explore-more">
+            <div class="" style="padding-bottom:15px;">
+              <div class="container-fluid dept-student-researchers">
+                <div class="container">
+                    <section class="row majorsminors ">
+                        <!-- <section class="row mediaGroup "> -->
+                        <div class="col-xs-12 heading text-center">
+                            <h2>Explore More</h2>
+                            <p class="stdnt-res-lede explore-more-lede"><em>We're here if you have questions!<br></em></p>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                          <h3 class="majorminorsubheading">Majors</h3>
+                          <ul>
+                              <li>Biology</li>
+                              <li>Biology Education</li>
+                              <li>Science Broadfield Education Biology</li>
+                          </ul>
+          
+          
+                      </div>
+                      <div class="col-xs-12 col-md-4">
+          
+                          <h3 class="majorminorsubheading">Minors</h3>
+                          <ul>
+                              <li>Biology</li>
+                              <li>Biology Education</li>
+                          </ul>
+                      </div>
+                      <!-- <div class="col-xs-12 col-md-4"> <h3>Explore Requirements and Course Details</h3> </div>    -->
+                      <div class="col-xs-12 col-md-4">
+          
+                          <h3 class="majorminorsubheading">Details</h3>
+                          <ul>
+                              <li><a href="">Degree Requirements</a></li>
+                              <li><a href="">Course Listing</a></li>
+                              <li><a href="">Registration and Advising</a></li>
+                          </ul>
+          
+          
+                      </div>
+                      </section>
+                      <section class="row contact-faculty">
+                        <div class="col-md-4 col-md-offset-4">        
+                        <div class="dept-subnav-buttony-2"> <a href="mailto:someone@example.com" >
+                              <i class="far fa-envelope"></i>
+                              <h3>Contact a faculty member!</h3>
+                          
+                         </a>
+                    </div></div>
+                      </section>
+                  
+                      
+                      </div></div></div></section>
+          <!-- END- billboard v2 -->
         </div>
-    </section>
-</div>
+        <!-- END - containingCol -->
 
-<div class="container-fluid dept-student-researchers">
-    <div class="container">
-        <section class="row  ">
-            <!-- <section class="row mediaGroup "> -->
-            <div class="col-xs-12 heading">
-                <h2>Active Faculty</h2>
-                <p class="stdnt-res-lede"><em>Engaged with students. Active in the field. <br></em></p>
+        <!-- </section> -->
+        <!-- </div> -->
+      </div>
+
+      <footer class="row">
+        <div class="contentWidth text-center">
+          <div class="footerContent">
+            <div class="social">
+              <a href="https://www.facebook.com/RMCMontana/" class="fb">
+                <span class="sr-only">Facebook</span>
+                <span class="rmcicon-facebook-square" aria-hidden="true"></span>
+              </a>
+
+              <a href="https://www.linkedin.com/school/76848/" class="linkdin">
+                <span class="sr-only">LinkdIn</span>
+                <span class="rmcicon-linkedin" aria-hidden="true"></span>
+              </a>
+
+              <a
+                href="https://www.instagram.com/rockymountaincollege/"
+                class="insta"
+              >
+                <span class="sr-only">Instagram</span>
+                <span class="rmcicon-instagram" aria-hidden="true"></span>
+              </a>
             </div>
+            <!-- END- social -->
 
-            <div class="row  ">
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <a href="" class="no-dec">
-                        <div class="faculty-profile-card">
-                            <div class="faculty-profile-card-imgblock">
-                                <img src="/img/circle-headshots/Jen-Shefner-Circle-Headshot.png" alt="" width="175">
-                            </div>
-                            <div class="faculty-profile-card-textblock">
-                                <p class="faculty-profile-card-name">Person Name</p>
-                                <p class="faculty-profile-card-description">I figure we want to put a little bit of
-                                    text here. What kind of info to put here can be determined. </p>
-                                <p class="faculty-profile-card-link"><a href="">full bio </a></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <a href="" class="no-dec">
-                        <div class="faculty-profile-card">
-                            <div class="faculty-profile-card-imgblock">
-                                <img src="/img/circle-headshots/Circle-Headshot.png" alt="" width="175">
-                            </div>
-                            <div class="faculty-profile-card-textblock">
-                                <p class="faculty-profile-card-name">Person Name</p>
-                                <p class="faculty-profile-card-description">I figure we want to put a little bit of
-                                    text here. What kind of info to put here can be determined. </p>
-                                <p class="faculty-profile-card-link"><a href="">full bio </a></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <a href="" class="no-dec">
-                        <div class="faculty-profile-card">
-                            <div class="faculty-profile-card-imgblock">
-                                <img src="/img/circle-headshots/images.jpeg" alt="" width="175">
-                            </div>
-                            <div class="faculty-profile-card-textblock">
-                                <p class="faculty-profile-card-name">Person Name</p>
-                                <p class="faculty-profile-card-description">I figure we want to put a little bit of
-                                    text here. What kind of info to put here can be determined. </p>
-                                <p class="faculty-profile-card-link"><a href="">full bio </a></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <a href="" class="no-dec">
-                        <div class="faculty-profile-card">
-                            <div class="faculty-profile-card-imgblock">
-                                <img src="/img/circle-headshots/Marcus-Gardley-Headshot-High-Res_circle.png" alt=""
-                                    width="175">
-                            </div>
-                            <div class="faculty-profile-card-textblock">
-                                <p class="faculty-profile-card-name">Person Name</p>
-                                <p class="faculty-profile-card-description">I figure we want to put a little bit of
-                                    text here. What kind of info to put here can be determined. </p>
-                                <p class="faculty-profile-card-link"><a href="">full bio </a></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+            <div class="tert1">
+              <a href="/contact-us">Contact Us</a> | <a href="/map">Map</a> |
+              <a href="/employment">Employment</a>
             </div>
-            <div class="row nopadding">
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <a href="#" class="no-dec">
-                        <div class="faculty-profile-card">
-                            <div class="faculty-profile-card-imgblock">
-                                <img src="/img/circle-headshots/Memory-Headshot-Circle-Border1-e1448272993765.png" alt=""
-                                    width="175">
-                            </div>
-                            <div class="faculty-profile-card-textblock">
-                                <p class="faculty-profile-card-name">Person Name</p>
-                                <p class="faculty-profile-card-description">I figure we want to put a little bit of
-                                    text here. What kind of info to put here can be determined. </p>
-                                <p class="faculty-profile-card-link"><a href="">full bio </a></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <a href="" class="no-dec">
-                        <div class="faculty-profile-card">
-                            <div class="faculty-profile-card-imgblock">
-                                <img src="/img/circle-headshots/rachel-circle-headshot.png" alt="" width="175">
-                            </div>
-                            <div class="faculty-profile-card-textblock">
-                                <p class="faculty-profile-card-name">Person Name</p>
-                                <p class="faculty-profile-card-description">I figure we want to put a little bit of
-                                    text here. What kind of info to put here can be determined. </p>
-                                <p class="faculty-profile-card-link"><a href="">full bio </a></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <a href="" class="no-dec">
-                        <div class="faculty-profile-card">
-                            <div class="faculty-profile-card-imgblock">
-                                <img src="/img/circle-headshots/TARR-headshot-smallcircle-300x300.png" alt="" width="175">
-                            </div>
-                            <div class="faculty-profile-card-textblock">
-                                <p class="faculty-profile-card-name">Person Name</p>
-                                <p class="faculty-profile-card-description">I figure we want to put a little bit of
-                                    text here. What kind of info to put here can be determined. </p>
-                                <p class="faculty-profile-card-link"><a href="">full bio </a></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-        </section>
+            <!-- END- footTert1 -->
 
+            <span class="footerName">Rocky Mountain College</span>
+            <p>
+              1511 Poly Drive Billings, Montana 59102 | 1.406.657.1000 |
+              1.800.877.6259<br />
+              ©2018 Rocky Mountain College
+            </p>
 
-    </div>
-</div>
-<!-- <div class="container">
-    <section class="row newsRow mediaGroup">
-        <div class="col-xs-12 heading">
-            <h2>Department News</h2>
+            <!--
+              div class="tert2">
+              	<a href="/privacy">Privacy</a> | <a href="/accessibility">Accessibility</a> | <a href="/policies">Policies</a>
+              </div
+            -->
+
+            <div class="tert2"><a href="/policies">Policies</a></div>
+            <!-- END- footTert1 -->
+          </div>
+          <!-- END- footerContent -->
         </div>
-
-    </section>
-</div> -->
-<div class="container-fluid">
-    <div class="row dept-testimonial-row">
-        <div class="col-xs-12">
-            <h3 class="center dept-testimonial-h3">Department News</h3>
-            <div class="contentWidth3">
-                <div class="col-xs-12">
-                    <p class="center italics ">
-                        <ul class="dept-news">
-                            <li><a href="">This is news item one. Aren't we awesome?</a></li>
-                            <li><a href="">Another news item. Still awesome!</a></li>
-                            <li><a href="">This one is less impressive. But hey, that's okay too.</a></li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-        </div>
+        <!-- END- contentWidth -->
+      </footer>
     </div>
-</div>
+    <!-- END- mainContainer -->
 
-<div class="container-fluid dept-majors-minors">
-    <div class="container">
-        <section class="row body-content ">
-            <div class="col-xs-12 ">
-                <h2>Degrees and Courses</h2>
-            </div>
-            <!-- <div class="col-xs-12"><p class="stdnt-res-lede">
-                        Biology majors frequently go on to medical school and other health science fields. <br>Our Biology minor is popular with students in our <a href="">Chemistry</a> and <a href="">Health and Human Performance</a> programs.
-                    </p> </div> -->
-            <div class="col-xs-12 col-md-4">
-                <h3 class="majorminorsubheading">Majors</h3>
-                <ul>
-                    <li>Biology</li>
-                    <li>Biology Education</li>
-                    <li>Science Broadfield Education Biology</li>
-                </ul>
+    <!-- <footer class="footer "> -->
 
+    <!-- </footer> -->
 
-            </div>
-            <div class="col-xs-12 col-md-4">
-
-                <h3 class="majorminorsubheading">Minors</h3>
-                <ul>
-                    <li>Biology</li>
-                    <li>Biology Education</li>
-                </ul>
-            </div>
-            <!-- <div class="col-xs-12 col-md-4"> <h3>Explore Requirements and Course Details</h3> </div>    -->
-            <div class="col-xs-12 col-md-4">
-
-                <h3 class="majorminorsubheading">Details</h3>
-                <ul>
-                    <li><a href="">Degree Requirements</a></li>
-                    <li><a href="">Course Listing</a></li>
-                    <li><a href="">Registration and Advising</a></li>
-                </ul>
-
-
-            </div>
-            <!-- <div class="col-xs-12">
-    <p class="dept-degrees-additional contentWidth2">
-        RMC Biology majors frequently go on to graduate school in various health science fields. Others make learning science fun for K12 students. Our Biology
-        minor is popular with students in our <a href="">Chemistry</a> and <a href="">Health and Human
-            Performance</a> programs.
-    </p>
-</div> -->
-        </section>
-    </div>
-</div>
-<div class="container-fluid">
-    <div class="row dept-testimonial-row">
-        <div class="col-xs-12">
-            <h3 class="center dept-testimonial-h3">Questions?</h3>
-            <div class="contentWidth3">
-                <div class="col-xs-12">
-                    <p class="center italics ">
-                        Can we setup a point person? Regardless, what to put here?
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-something else down here? if not, maybe no brown bar just above.
-<!-- <div class="container-fluid dept-student-researchers">
-            <div class="container">
-                <section class="row body-content mediaGroup ">
-                    <div class="col-xs-12 heading">
-                        <h2>Degrees and Courses</h2>
-                    </div>
-               </section>
-            </div>
-        </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-</div>
-
-<!-- <script src="https://unpkg.com/scrollreveal"></script> -->
-<script>
-    ScrollReveal().reveal('.row', { delay: 195 });
-</script>
-<script>
-    $(document).ready(function () {
-        var CycleList = $("ul#js-CycleList");
-
-        setInterval(function () {
-            var next = CycleList.find("li.highlight + li, li:first-child").last();
-            CycleList.find("li.highlight").removeClass("highlight");
-            next.addClass("highlight");
-        }, 2000);
-    });
-</script>
-</div>
-
-</div>
-</div>
+    <script src="https://www.rocky.edu/sites/default/files/js/js_uLEzSQST1b5DNIl43bR5kSPK-yMPZc9ODnn-B-TUnoU.js"></script>
+    <script src="https://www.rocky.edu/sites/default/files/js/js_FbpwIZNwgzwEuuL4Q2HOM07BOSCY5LxL_gwSK4ohQBM.js"></script>
+  </body>
+</html>
