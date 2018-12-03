@@ -2083,7 +2083,8 @@ a.homeCta:hover h4 {
   color: #000;
 }
 .factoidsRow {
-  background-color: #dfdede;
+  background-color: #;
+  /* background-color: #dfdede; */
   padding-top: 50px;
   padding-bottom: 75px;
 }
