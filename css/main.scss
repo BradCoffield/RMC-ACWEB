@@ -119,8 +119,9 @@ footer{
     display: block;
     font-size: 5rem;
   }
-  border-radius: 5px;
+  // border-radius: 5px;
   box-shadow: 2px 3px 1px #999;
+  margin-top:4rem;
 }
 .dept-subnav-buttony:hover {
   background-color: $green-lighter-2;
@@ -390,4 +391,15 @@ font-family: $sans-serif;
   .faculty-profile-card-email {
     text-align: center;margin-top:-2.5rem;
     a {text-decoration: none; font-size:1.2rem;}
+  }
+
+
+  .billboard.bb1 {
+    background-image: url(https://www.rocky.edu/sites/default/files/billboard-bio-01.jpg)!important;
+  }
+  .billboard.bb2 {
+    background-image: url(https://www.rocky.edu/sites/default/files/billboard-bio-02.jpg)!important;
+  }
+  .billboard.bb3 {
+    background-image: url(https://www.rocky.edu/sites/default/files/billboard-bio-04.jpg)!important;
   }
