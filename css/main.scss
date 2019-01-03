@@ -143,6 +143,7 @@ footer{
 }
 .dept-testimonial {
   line-height: 35px;
+  padding-right: 1rem;
 }
 .dept-recent-grads {
   line-height: 27px;
@@ -221,6 +222,7 @@ figure {
   line-height: 35px;
   margin-bottom: 3rem!important;
   margin-top: -1rem;
+  padding: 0px 1rem;
 }
 .researchers-slide-group {
   margin-top: 1rem;
@@ -358,6 +360,7 @@ p.dept-degrees-additional {
 #recent-grads-bio li{
   margin-bottom: 3px;
   margin-left: 5px; 
+  list-style-type: none!important;
 
 }
 .mb1r{
@@ -404,4 +407,22 @@ font-family: $sans-serif;
   }
   .billboard.bb3 {
     background-image: url(https://www.rocky.edu/sites/default/files/billboard-bio-04.jpg)!important;
+  }
+
+  .student-researcher-picture {
+    border: 7px solid lightgray;
+    border-radius: 5px;
+  }
+  .student-researcher-side-text{
+    font-size: 1.8rem!important;
+    // font-weight: 300;
+    font-family: $sans-serif!important;
+    align-self: center;
+  }
+
+  .student-researcher-side-text-col {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 400px;
   }
