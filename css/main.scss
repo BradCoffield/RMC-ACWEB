@@ -123,18 +123,19 @@ footer{
   box-shadow: 2px 3px 1px #999;
   margin-top:4rem;
 }
-.dept-subnav-buttony:hover {
-  background-color: $green-lighter-2;
-  color: white;
-}
+// .dept-subnav-buttony:hover {
+//   background-color: $green-lighter-2;
+//   color: white;
+// }
 .dept-subnav-buttony-2 a:hover {
   background-color: $green-lighter-2;
-  color: white;
+  color: $green-lighter-2;
+ 
 }
-.dept-subnav-buttony-2:hover {
-  background-color: $green-lighter-2;
-  color: white;
-}
+// .dept-subnav-buttony-2:hover {
+//   background-color: $green-lighter-2;
+//   color: white;
+// }
 .dept-testimonial,
 .dept-recent-grads {
   font-family: "Roboto Slab", serif;
@@ -287,8 +288,9 @@ figure {
 }
 .faculty-profile-card {
   // background-color: $green-wanna-transparent; // background-image: $noise;
-  padding: 2rem;
-  box-shadow: 0px 0px 5px $green-lighter-2;
+  padding: 2rem ;
+  box-shadow: 0px 0px 2px gray;
+   
   border-radius: 3px;
   margin-bottom: 2rem;
 }
@@ -425,4 +427,9 @@ font-family: $sans-serif;
     align-items: center;
     align-content: center;
     height: 400px;
+  }
+
+  .program-highlights-top{
+    padding-left:20px;
+    font-size: 1.6rem;
   }
