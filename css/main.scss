@@ -402,7 +402,7 @@ font-family: $sans-serif;
 
 
   .billboard.bb1 {
-    background-image: url('../img/131206_RMC_G0022709.jpg')!important;
+    background-image: url('/img/OTD/IMG_1939-X3.jpg')!important;
     // background-image: url(https://www.rocky.edu/sites/default/files/billboard-bio-01.jpg)!important;
   }
   .billboard.bb2 {
@@ -438,4 +438,14 @@ font-family: $sans-serif;
   .businessIntershipsLogosSection {
     img {max-width: 200px;
     padding: 1rem;}
+  }
+
+  .plain-h3 {
+    font-family: sans-serif!important;
+    color: #333!important;
+    font-size: 24px!important;
+    font-weight: 700;
+  }
+  .otd-news-link {
+    font-size: 16px;
   }
