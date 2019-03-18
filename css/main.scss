@@ -449,3 +449,26 @@ font-family: $sans-serif;
   .otd-news-link {
     font-size: 16px;
   }
+  .ot-news-caption {
+    font-size: 16px!important;
+    font-family: $sans-serif !important;
+    // background: #999;
+    margin-bottom: -5px;
+      // border-top: 1px dotted #999;
+      // border-right: 1px dotted #999;
+    // border-left: 1px solid #999;
+    line-height: 26px!important;
+  }
+  .ot-news-pic {
+    box-shadow: 1px 1px 3px lightgray;
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+  .ot-field-work-paragraph {
+    font-size:18px!important;
+    line-height: 32px!important;
+  }
+  .mtb100p {
+    margin-top: 100px!important;
+    margin-bottom: 100px!important;
+  }
