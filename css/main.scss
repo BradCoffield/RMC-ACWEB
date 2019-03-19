@@ -55,7 +55,7 @@ footer{
   .dept-intro-text {
     // margin-top: 2rem;
     font-size: 1.8rem;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem!important;
     }
 #bio-top-video {
   max-width: 100%;
@@ -471,4 +471,20 @@ font-family: $sans-serif;
   .mtb100p {
     margin-top: 100px!important;
     margin-bottom: 100px!important;
+  }
+
+  .intro-alert{
+    background-color: $palette-11;
+    background-image: $noise;
+    display: block;
+    overflow: hidden;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    // display: flex;
+  }
+  .sans {
+    font-family: $sans-serif!important;
+  }
+  .lh28{
+    line-height: 28px!important;
   }
