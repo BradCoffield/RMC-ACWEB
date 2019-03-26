@@ -54,8 +54,9 @@ footer{
  
   .dept-intro-text {
     // margin-top: 2rem;
-    font-size: 1.8rem;
+    font-size: 17px;
     margin-bottom: 3rem;
+    font-family: $serif;
     }
 #bio-top-video {
   max-width: 100%;
@@ -417,9 +418,9 @@ font-family: $sans-serif;
     border-radius: 5px;
   }
   .student-researcher-side-text{
-    font-size: 1.8rem!important;
+    font-size: 1.6rem!important;
     // font-weight: 300;
-    font-family: $sans-serif!important;
+    font-family: $serif!important;
     align-self: center;
   }
 
@@ -458,4 +459,14 @@ font-family: $sans-serif;
   }
   .fs14p {
     font-size: 20px!important;
+  }
+
+  .ulmbless{
+    margin-bottom: 10px!important;
+  }
+  .ult2{
+    list-style-type: disc!important;
+  }
+  .ult3{
+     list-style-type: circle!important;
   }
