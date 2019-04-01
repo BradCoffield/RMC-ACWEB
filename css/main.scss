@@ -355,7 +355,7 @@ p.dept-degrees-additional {
 }
  
 .font-shadow-light {
-  text-shadow: 1px 1px 1px #888;
+  text-shadow: 1px 1px 1px #111;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
 	color: #555;
@@ -407,8 +407,8 @@ font-family: $sans-serif;
 
 
   .billboard.bb1 {
-    background-image: url('/img/OTD/IMG_1939-X3.jpg')!important;
-    // background-image: url(https://www.rocky.edu/sites/default/files/billboard-bio-01.jpg)!important;
+    // background-image: url('/img/RMCinFall.jpg')!important;
+    background-image: url(https://www.rocky.edu/sites/default/files/billboard-bio-01.jpg)!important;
   }
   .billboard.bb2 {
     background-image: url(https://www.rocky.edu/sites/default/files/billboard-bio-02.jpg)!important;
@@ -508,4 +508,8 @@ font-family: $sans-serif;
   }
   #bio-faculty-cards-section{
     display:inline!important;
+  }
+  .img-frame{
+    box-shadow: 1px 1px 3px lightgray;
+padding: 1rem;
   }
