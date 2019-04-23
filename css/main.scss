@@ -145,6 +145,8 @@ footer{
 .dept-testimonial {
   line-height: 35px;
   padding-right: 1rem;
+  font-weight: bold;
+  font-family: $sans-serif;
 }
 .dept-recent-grads {
   line-height: 27px;
@@ -355,7 +357,7 @@ p.dept-degrees-additional {
 }
  
 .font-shadow-light {
-  text-shadow: 1px 1px 1px #111;
+  text-shadow: 1px 1px 10px #000;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
 	color: #555;
@@ -524,3 +526,10 @@ padding: 1rem;
   .fs16p{
     font-size: 16px!important
   }
+
+  .contentRight {
+    margin-right: 2rem;
+  }
+  .contentLeft{
+    margin-left:2rem;
+      }
